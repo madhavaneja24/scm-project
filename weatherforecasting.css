@@ -61,3 +61,26 @@ main {
     color: #000000;
 }
 
+footer {
+    text-align: center;
+    padding: 10px;
+   
+}
+img {
+    margin-top: 20px;
+    margin-left: 50px;
+    border-radius: 8px;
+    
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+
+}
+
+a{
+    color: gold;
+}
+
