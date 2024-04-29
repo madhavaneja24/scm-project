@@ -1,86 +1,89 @@
+/* Reset */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
 }
 
+/* Body */
 body {
-    background-image:url('https://images.unsplash.com/photo-1611928482473-7b27d24eab80?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jose-g-ortega-castro-tS4Pl_8F3fY-unsplash.jpg');
-    background-repeat: no repeat;
+    background-image: url('https://images.unsplash.com/photo-1611928482473-7b27d24eab80?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&dl=jose-g-ortega-castro-tS4Pl_8F3fY-unsplash.jpg');
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover; /* Adjusted for better responsiveness */
 }
 
+/* Header */
 header {
-    
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 4rem; /* Adjusted for consistent units */
 }
 
 #location {
-    padding: 8px;
-    font-size: 16px;
+    padding: 0.5rem;
+    font-size: 1rem; /* Adjusted for consistent units */
 }
 
 #search {
-    padding: 8px 16px;
-    
+    padding: 0.5rem 1rem;
     color: #040404;
     border: none;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1rem; /* Adjusted for consistent units */
 }
 
+/* Main */
 main {
-    padding: 20px;
+    padding: 2rem; /* Adjusted for consistent units */
     text-align: center;
 }
 
 .weather-card {
     background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
-    padding: 20px;
+    border-radius: 0.5rem; /* Adjusted for consistent units */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 1.5rem; /* Adjusted for consistent units */
     display: inline-block;
     text-align: center;
 }
 
-
-
 .temperature {
-    font-size: 24px;
-    margin-top: 10px;
+    font-size: 1.5rem; /* Adjusted for consistent units */
+    margin-top: 1rem; /* Adjusted for consistent units */
 }
 
 .description {
-    font-size: 18px;
-    color: #000000;
+    font-size: 1.125rem; /* Adjusted for consistent units */
+    color: #000;
 }
 
+/* Footer */
 footer {
     text-align: center;
-    padding: 10px;
-   
-}
-img {
-    margin-top: 20px;
-    margin-left: 50px;
-    border-radius: 8px;
-    
+    padding: 1rem; /* Adjusted for consistent units */
 }
 
+/* Image */
+img {
+    margin-top: 2rem; /* Adjusted for consistent units */
+    margin-left: 2rem; /* Adjusted for consistent units */
+    border-radius: 0.5rem; /* Adjusted for consistent units */
+}
+
+/* Additional Styles */
 h3 {
-    font-size: 20px;
+    font-size: 1.25rem; /* Adjusted for consistent units */
     text-align: center;
     color: #fff;
-
 }
 
-a{
+a {
     color: gold;
 }
+```
 
+These enhancements will make your CSS more consistent, maintainable, and responsive.
