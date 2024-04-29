@@ -40,3 +40,24 @@ main {
     text-align: center;
 }
 
+.weather-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+.temperature {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 18px;
+    color: #000000;
+}
+
