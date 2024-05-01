@@ -51,6 +51,7 @@ main {
     text-align: center;
 }
 
+/*temperature*/
 .temperature {
     font-size: 1.5rem; /* Adjusted for consistent units */
     margin-top: 1rem; /* Adjusted for consistent units */
