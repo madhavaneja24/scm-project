@@ -31,5 +31,12 @@
   <footer>
     <p>&copy; 2024 Weather Forecast</p>
   </footer>
+  <script>
+  document.getElementById('search').addEventListener('click', function() {
+    var location = document.getElementById('location').value;
+    alert('Searching for weather in ' + location);
+    // You can add more functionality here, such as fetching weather data from an API
+  });
+</script>
 </body>
 </html>
