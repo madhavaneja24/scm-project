@@ -34,9 +34,31 @@
   <script>
   document.getElementById('search').addEventListener('click', function() {
     var location = document.getElementById('location').value;
-    alert('Searching for weather in ' + location);
-    // You can add more functionality here, such as fetching weather data from an API
+    fetchWeatherData(location);
   });
+
+  function fetchWeatherData(location) {
+    // Simulating API call with a timeout
+    setTimeout(function() {
+      var weatherData = {
+        temperature: '25°C',
+        description: 'Sunny',
+        icon: 'https://www.example.com/icons/sunny.png' // Replace with actual weather icon URL
+      };
+      updateWeatherCard(weatherData);
+    }, 1000); // Simulated delay of 1 second
+  }
+
+  function updateWeatherCard(weatherData) {
+    var weatherIcon = document.querySelector('.weather-icon');
+    var temperatureElement = document.querySelector('.temperature');
+    var descriptionElement = document.querySelector('.description');
+
+    weatherIcon.innerHTML = '<img src="' + weatherData.icon + '" alt="' + weatherData.description + '">';
+    temperatureElement.textContent = weatherData.temperature;
+    descriptionElement.textContent = weatherData.description;
+  }
 </script>
+
 </body>
 </html>
