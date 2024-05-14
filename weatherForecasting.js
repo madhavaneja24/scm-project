@@ -4,7 +4,8 @@
     fetchWeatherData(location);
   });
 
-  function fetchWeatherData(location) {
+
+  function fetchWeatherData(location) { // function to fetch Weather Data
     // Simulating API call with a timeout
     setTimeout(function() {
       var weatherData = {
