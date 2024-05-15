@@ -1,4 +1,3 @@
-<script>
   document.getElementById('search').addEventListener('click', function() {
     var location = document.getElementById('location').value;
     fetchWeatherData(location);
@@ -23,4 +22,3 @@
     temperatureElement.textContent = weatherData.temperature;
     descriptionElement.textContent = weatherData.description;
   }
-</script>
