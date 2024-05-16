@@ -8,8 +8,8 @@
     // Simulating API call with a timeout
     setTimeout(function() {
       var weatherData = {
-        temperature: '25°C',
-        description: 'Sunny'
+        temperature: '25°C';
+        description: 'Sunny';
       };
       updateWeatherCard(weatherData);
     }, 1000); // Simulated delay of 1 second
